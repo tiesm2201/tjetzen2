@@ -1,0 +1,297 @@
+/* Homepage */
+
+body {
+  font-family: Helvetica, sans-serif;
+  padding: 5%;
+  text-align: center;
+}
+
+.body-background {
+  background-color: black;
+}
+
+.navText {
+    color: white;
+}
+
+.glitchText {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#b2 {
+  margin-left: 40px;
+}
+
+/* BKE */
+
+.kirbTable {
+  margin: 20px auto;
+  background-image: url(../projects/tictactoe/img/kirbmonster.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+td {
+  width: 100px;
+  height: 100px;
+}
+
+.hori {
+  border-top: 2px solid black;
+  border-bottom: 2px solid;
+}
+
+.vert {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+#playerOne {
+    display: flex;
+    justify-content: center;
+}
+
+#playerTwo {
+    display: flex;
+    justify-content: center;
+
+}
+
+.invertedTitle {
+  background-color: #ffffff;
+  color: #000000;
+    text-transform: uppercase;
+}
+
+/* Memory */
+
+.memerijContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.memeContainer {
+    width: 1280px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tableContainer {
+    width: 610px;
+    height: 612px;
+    position: relative;
+  }
+
+  #frikandelbroodje {
+    position: absolute;  
+    width: 400px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #white {
+    display: none;
+    opacity: 0.5;
+    width: 400px;
+    height: 500px;
+    border-radius: 5%;
+    background-color: wheat;
+    z-index: 2;
+    position: absolute;
+  }
+
+  .memeTable {
+    background-color: #000000;
+    padding: 50px 100px;
+    border-radius: 5%;
+  }
+
+  .cellBg {
+    /* background-color: #3b3b3b; */
+    width: 100px;
+    height: 100px;
+  }
+
+  .cell {
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    border-radius: 5%;  
+    border: 1px solid white;
+  }
+
+  .gamertags {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #startMeme {
+    margin-top: 20px !important;
+    text-transform: capitalize;
+    width: 91px;
+    height: 24px;
+  }
+
+  .scores {
+    margin-top: 20px;
+    position: relative;
+    border-radius: 5%;
+    height: 30px;
+    display: flex;
+    background-color: #000000;
+    color: white;
+  }
+
+/* Classes van de */
+
+  .spannend {
+    padding: 5px;
+  }
+
+  .active {
+    color: red;
+  }
+
+  .fortnut {
+    position: absolute;
+    top: 283px;
+    z-index: 99;
+  }
+  .winner {
+    position: absolute;
+    top: 63px;
+    z-index: 99;
+    animation: winner 0.8s infinite;
+  }
+   
+  @keyframes winner{
+    0%{   color: red;    }
+    100%{   color: white;    }
+  }
+  
+/* Kaarten memory */
+
+.image0 {
+ background-image: url('img/0.jpg'); 
+ opacity: 0; 
+ background-repeat: no-repeat;
+}
+.image1 {
+ background-image: url('img/1.jpg'); 
+ opacity: 0; 
+ background-repeat: no-repeat; 
+}
+.image2 {
+ background-image: url('img/2.png'); 
+ opacity: 0; 
+ background-repeat: no-repeat; 
+}
+.image3 {
+   background-image: url('img/3.png'); 
+ opacity: 0; 
+ background-repeat: no-repeat; 
+}
+.image4 {
+ background-image: url('img/4.png'); 
+ opacity: 0; 
+ background-repeat: no-repeat; 
+}
+.image5 {
+  background-image: url('img/5.png'); 
+  opacity: 0; 
+  background-repeat: no-repeat;
+}
+.image6 {
+   background-image: url('img/6.jpg'); 
+   opacity: 0;
+   background-repeat: no-repeat;
+}
+.image7 {
+   background-image: url('img/7.jpg'); 
+   opacity: 0;
+   background-repeat: no-repeat;
+}
+.image8 {
+   background-image: url('img/8.jpg'); 
+   opacity: 0;
+   background-repeat: no-repeat;
+}
+.image9 {
+    background-image: url('img/9.jpg');
+    opacity: 0;
+    background-repeat: no-repeat;
+}
+.image10 {
+   background-image: url('img/0.jpg');
+   opacity: 0; 
+   background-repeat: no-repeat;
+}
+.image11 {
+   background-image: url('img/1.jpg');
+    opacity: 0;
+    background-repeat: no-repeat;
+}
+.image12 {
+  background-image: url('img/2.png');
+   opacity: 0; 
+   background-repeat: no-repeat;
+}
+.image13 {
+    background-image: url('img/3.png');
+    opacity: 0;
+    background-repeat: no-repeat;
+}
+.image14 {
+  background-image: url('img/4.png');
+    opacity: 0;
+    background-repeat: no-repeat;
+}
+.image15 {
+  background-image: url('img/5.png'); 
+   opacity: 0;
+   background-repeat: no-repeat;
+}
+.image16 {
+  background-image: url('img/6.jpg'); 
+   opacity: 0;
+   background-repeat: no-repeat;
+}
+.image17 {
+  background-image: url('img/7.jpg'); 
+   opacity: 0;
+   background-repeat: no-repeat;
+}
+
+.image18 {
+   background-image: url('img/8.jpg'); 
+   opacity: 0;
+   background-repeat: no-repeat;
+}
+
+.image19 {
+  background-image: url('img/9.jpg'); 
+   opacity: 0;
+   background-repeat: no-repeat;
+}
+
+.visible {
+  opacity: 1;
+}
+.invisible {
+  opacity: 0;
+}
+
+
+
+
+
+
+
+

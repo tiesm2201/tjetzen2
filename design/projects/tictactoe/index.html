@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"
+          href="css/bootstrap.css">
+    <link rel="stylesheet"
+          href="css/bootstrap-grid.css">
+    <link rel="stylesheet"
+          href="projects/tictactoe/css/bootstrap.css">
+    <title>Sterretjes, Zwaardjes en Kerbes</title>
+</head>
+
+<body>
+    <p class="text-center">De resetknop is niet functioneel. Om te resetten druk je op f5.</p>
+    <div class="container">
+        <h4 class="text-center text-light">Sterretjes, Zwaardjes en Kerbes</h4>
+        <table>
+            <tr>
+                <td class="kirb"></td>
+                <td class="vert kirb"></td>
+                <td class="kirb"></td>
+            </tr>
+            <tr>
+                <td class="hori kirb"></td>
+                <td class="vert hori kirb"></td>
+                <td class="hori kirb"></td>
+            </tr>
+            <tr>
+                <td class="kirb"></td>
+                <td class="vert kirb"></td>
+                <td class="kirb"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="border p-0 ml-auto mr-auto col-sm-1">
+        <button class="btn m-0 p-0 btn-dark startGame col-sm-12" onclick="startGame()" id="start">Start</button>
+    </div>
+    <div id="playerOne">
+        <h1>Speler 1: Kirby</h1>
+    </div>
+    <div id="playerTwo">
+        <h1>Speler 2: Metaknight</h1>
+    </div>
+    <div id="video"></div>
+    <div class="justify-content-center"
+         id="win"></div>
+    <div hidden
+         id="loser"></div>
+</body>
+<script src="js/main.js"></script>
+
+</html>
